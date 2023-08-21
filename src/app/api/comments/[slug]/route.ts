@@ -1,4 +1,4 @@
-import { getComments, saveComment } from "@/lib/comments.ts";
+import { getComments, saveComment } from "@/lib/comments";
 import { NextRequest, NextResponse } from "next/server";
 
 type BlogPostParams = {
