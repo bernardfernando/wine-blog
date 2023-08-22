@@ -1,0 +1,19 @@
+{
+  "title": "English Wines",
+  "date": "2023-08-16T00:00:00.000Z",
+  "category": "england\r",
+  "body": {
+    "raw": "\r\n## English Wines\r\n\r\nEnglish (or Welsh wine for that matter) is made from grapes lovingly grown in our own country and carefully fermented into wine with great care taken thought the process. English and Welsh wines have a great variety of character.\r\n",
+    "html": "<h2>English Wines</h2>\n<p>English (or Welsh wine for that matter) is made from grapes lovingly grown in our own country and carefully fermented into wine with great care taken thought the process. English and Welsh wines have a great variety of character.</p>"
+  },
+  "_id": "english-welsh-wines.md",
+  "_raw": {
+    "sourceFilePath": "english-welsh-wines.md",
+    "sourceFileName": "english-welsh-wines.md",
+    "sourceFileDir": ".",
+    "contentType": "markdown",
+    "flattenedPath": "english-welsh-wines"
+  },
+  "type": "Post",
+  "slug": "english-welsh-wines"
+}

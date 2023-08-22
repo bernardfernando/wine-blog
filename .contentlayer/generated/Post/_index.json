@@ -1,0 +1,59 @@
+[
+  {
+    "title": "Australian Wines",
+    "date": "2023-08-16T00:00:00.000Z",
+    "category": "australian\r",
+    "body": {
+      "raw": "\r\nAustralia is proving that its wines have quality and diversity in abundance. With a land mass of more than 7.5 million sq km, you could fit England, Scotland, Wales and Northern Ireland into Australia 30 times, and still have a bit left over. It's not surprising therefore that climates and topography are varied. The best wine-producing regions are located on the southern side of the country.\r\n",
+      "html": "<p>Australia is proving that its wines have quality and diversity in abundance. With a land mass of more than 7.5 million sq km, you could fit England, Scotland, Wales and Northern Ireland into Australia 30 times, and still have a bit left over. It's not surprising therefore that climates and topography are varied. The best wine-producing regions are located on the southern side of the country.</p>"
+    },
+    "_id": "australian-wines.md",
+    "_raw": {
+      "sourceFilePath": "australian-wines.md",
+      "sourceFileName": "australian-wines.md",
+      "sourceFileDir": ".",
+      "contentType": "markdown",
+      "flattenedPath": "australian-wines"
+    },
+    "type": "Post",
+    "slug": "australian-wines"
+  },
+  {
+    "title": "English Wines",
+    "date": "2023-08-16T00:00:00.000Z",
+    "category": "england\r",
+    "body": {
+      "raw": "\r\n## English Wines\r\n\r\nEnglish (or Welsh wine for that matter) is made from grapes lovingly grown in our own country and carefully fermented into wine with great care taken thought the process. English and Welsh wines have a great variety of character.\r\n",
+      "html": "<h2>English Wines</h2>\n<p>English (or Welsh wine for that matter) is made from grapes lovingly grown in our own country and carefully fermented into wine with great care taken thought the process. English and Welsh wines have a great variety of character.</p>"
+    },
+    "_id": "english-welsh-wines.md",
+    "_raw": {
+      "sourceFilePath": "english-welsh-wines.md",
+      "sourceFileName": "english-welsh-wines.md",
+      "sourceFileDir": ".",
+      "contentType": "markdown",
+      "flattenedPath": "english-welsh-wines"
+    },
+    "type": "Post",
+    "slug": "english-welsh-wines"
+  },
+  {
+    "title": "European",
+    "date": "2023-08-16T00:00:00.000Z",
+    "category": "european\r",
+    "body": {
+      "raw": "\r\nThe first wines I ever tried were European, most of the wines I buy are still European and I’ve visited more European vineyards than those on any other continent. Except that I don’t think of them as “European”, but as French, Italian, Spanish, Greek … The great fallacy of the whole wretched Brexit debate is that individual countries lose their identity from being part of Europe. Well, not when it comes to wine, they don’t – or very little else, for that matter.\r\n",
+      "html": "<p>The first wines I ever tried were European, most of the wines I buy are still European and I’ve visited more European vineyards than those on any other continent. Except that I don’t think of them as “European”, but as French, Italian, Spanish, Greek … The great fallacy of the whole wretched Brexit debate is that individual countries lose their identity from being part of Europe. Well, not when it comes to wine, they don’t – or very little else, for that matter.</p>"
+    },
+    "_id": "european-wines.md",
+    "_raw": {
+      "sourceFilePath": "european-wines.md",
+      "sourceFileName": "european-wines.md",
+      "sourceFileDir": ".",
+      "contentType": "markdown",
+      "flattenedPath": "european-wines"
+    },
+    "type": "Post",
+    "slug": "european-wines"
+  }
+]

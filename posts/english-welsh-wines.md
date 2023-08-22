@@ -1,6 +1,8 @@
+---
 title: English Wines
-dte:16-08-2023
+date: 2023-08-16
 category: england
+---
 
 ## English Wines
 

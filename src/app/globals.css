@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+import "public/font/comforter-regular.woff2"
 
 /*:root {
   --foreground-rgb: 0, 0, 0;
@@ -26,3 +27,27 @@ body {
     rgb(var(--background-start-rgb));
 }
 */
+.nav-1,
+nav-bar {
+  grid: auto;
+  grid-template-rows: 1fr;
+  /* display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-around; */
+  padding-left: 30px;
+  font-size: 2rem;
+}
+h1 {
+  font-family: Comforter, "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+@font-face {
+  font-family: "Comforter";
+  src: url("Comforter-Regular.woff2") format("woff2"),
+    url("Comforter-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

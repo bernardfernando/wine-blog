@@ -12,11 +12,13 @@ const BackgroundCarousel = () => {
       showThumbs={false}
     >
       <div>
-        <img src="/public/images/bg-vine.jpg" alt="Slide 1" />
+        <img src="./images/bg-vine.jpg" alt="Slide 1" />
       </div>
       <div>
-        <img src="/public/images/bg-vine2.jpg" alt="Slide 2" />
+        <img src="./images/bg-vine2.jpg" alt="Slide 2" />
       </div>
     </Carousel>
   );
 };
+
+export default BackgroundCarousel;

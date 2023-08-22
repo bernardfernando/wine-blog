@@ -4,7 +4,7 @@ const CATEGORIES = [
   { name: "Australian", catslug: "australian" },
   { name: "English", catslug: "english" },
   { name: "European", catslug: "european" },
-  { name: "United States", catslut: "united_states" },
+  { name: "United States", catslug: "united_states" },
 ];
 
 // get ALL the posts (simulating an API or database)

@@ -19,7 +19,7 @@ export async function POST(request: NextRequest, { params }: BlogPostParams) {
   const form = await request.formData();
   const username = form.get("username") as string;
   const comment = form.get("comment") as string;
-  console.log(username, comment, params.slug);
+
   await saveComment(username, comment, params.slug);
   return NextResponse.json("Comment saved");
 }
