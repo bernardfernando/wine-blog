@@ -1,21 +1,22 @@
-import Link from "next/link";
-import { getPosts } from "@/lib/posts";
+import React from "react";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-export default function BlogPage() {
-  const posts = getPosts();
-
+const BackgroundCarousel = () => {
   return (
-    <div>
-      <h2>My Posts</h2>
-      <ul>
-        {posts.map((post) => {
-          return (
-            <li key={post.slug}>
-              <Link href={`/blog/${post.slug}`}>{post.title}</Link>
-            </li>
-          );
-        })}
-      </ul>
-    </div>
+    <Carousel
+      autoPlay
+      infiniteLoop
+      showStatus={false}
+      showIndicators={false}
+      showThumbs={false}
+    >
+      <div>
+        <img src="/public/images/bg-vine.jpg" alt="Slide 1" />
+      </div>
+      <div>
+        <img src="/public/images/bg-vine2.jpg" alt="Slide 2" />
+      </div>
+    </Carousel>
   );
-}
+};

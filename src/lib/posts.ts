@@ -1,4 +1,4 @@
-import { allPosts as POSTS } from "/contentlayer/generated";
+import { allPosts as POSTS } from "contentlayer/generated";
 
 const CATEGORIES = [
   { name: "Australian", catslug: "australian" },
