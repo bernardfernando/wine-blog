@@ -1,6 +1,4 @@
 import React from "react";
-// import BackgroundCarousel from "@/components/BackgroundCarousel";
-// import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export default async function Home() {
   const res = await fetch("http://localhost:3000/api/message", {
@@ -20,7 +18,14 @@ export default async function Home() {
         >
           Welcome to my blog
         </h2>
-        <p className="mx-5 p-5 text-rose-800 text-2xl">My message to you is:</p>
+        <div>
+          <p className="mx-5 p-5 text-rose-800 text-2xl">
+            My message to you is:
+          </p>
+          <article>
+            <p>Is wine merely a fermented solution of sugar? </p>
+          </article>
+        </div>
       </div>
 
       {/* <div>
