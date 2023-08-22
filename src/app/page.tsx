@@ -1,6 +1,6 @@
 import React from "react";
-import BackgroundCarousel from "@/components/BackgroundCarousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+// import BackgroundCarousel from "@/components/BackgroundCarousel";
+// import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export default async function Home() {
   const res = await fetch("http://localhost:3000/api/message", {
@@ -14,9 +14,13 @@ export default async function Home() {
         className="w-full h-screen bg-cover bg-center"
         style={{ backgroundImage: 'url("/images/bg-vine.jpg")' }}
       >
-        <h1 className="mx-5 text-2xl">Welcome to my API</h1>
-        <div className="flow-root"></div>
-        <p className="mx-5">My message to you is:</p>
+        <h2
+          className="p-5
+         mx-5 text-3xl text-rose-800"
+        >
+          Welcome to my blog
+        </h2>
+        <p className="mx-5 p-5 text-rose-800 text-2xl">My message to you is:</p>
       </div>
 
       {/* <div>

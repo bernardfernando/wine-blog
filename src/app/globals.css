@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-import "public/font/comforter-regular.woff2"
 
 /*:root {
   --foreground-rgb: 0, 0, 0;
@@ -45,8 +44,8 @@ h1 {
 
 @font-face {
   font-family: "Comforter";
-  src: url("Comforter-Regular.woff2") format("woff2"),
-    url("Comforter-Regular.woff") format("woff");
+  src: url("/public/fonts/Comforter.woff2") format("woff2"),
+    url("/public/fonts/Comforter.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
