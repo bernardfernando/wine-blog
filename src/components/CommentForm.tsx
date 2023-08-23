@@ -51,7 +51,7 @@ export default function CommentForm({
   }
 
   return (
-    <form onSubmit={handleFormSubmit}>
+    <form className="p-20" onSubmit={handleFormSubmit}>
       <p>
         Commenting as <strong>{username}</strong>
       </p>

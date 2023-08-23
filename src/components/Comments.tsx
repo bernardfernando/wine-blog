@@ -15,7 +15,7 @@ export default async function Comments({ slug }: { slug: string }) {
   } catch (err) {
     console.log(err);
   }
-
+  console.log(comments);
   const user: User | null = await currentUser();
 
   return (

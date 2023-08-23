@@ -1,12 +1,14 @@
 import Link from "next/link";
-import "@/app/globals.css";
-import "public/fonts/Comforter.woff2";
-import "public/fonts/Comforter.woff";
+import { Comforter } from "next/font/google";
+const comforter = Comforter({ subsets: ["latin"], weight: "400" });
+
 export default function Header() {
   return (
-    <>
+    <header>
       <h1 className="decoration-12 min-h-fit p-10 h-25 bg-gradient-to-r from-yellow-100 via-red-200 to-rose-950 text-9xl text-rose-900">
-        <Link href="/">My Wine Blog</Link>
+        <Link className={comforter.className} href="/">
+          My Wine Blog
+        </Link>
       </h1>
       <div className="grid gap-4 grid-cols-8 bg-gradient-to-r from-yellow-100 via-red-200 to-rose-950 text-rose-900">
         <div className="col-start-4 col-span-1 text-3xl  mx-3">
@@ -20,6 +22,6 @@ export default function Header() {
           </button>
         </div>
       </div>
-    </>
+    </header>
   );
 }

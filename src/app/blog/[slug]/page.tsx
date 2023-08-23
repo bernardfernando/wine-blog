@@ -26,7 +26,7 @@ export default function BlogPost({ params }: BlogPostParams) {
   }
 
   return (
-    <div>
+    <div className="p-20 text-rose-800 text-2xl">
       <h1>{post.title}</h1>
       <div
         dangerouslySetInnerHTML={{ __html: post.body.html }}
