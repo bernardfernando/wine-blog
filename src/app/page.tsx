@@ -18,12 +18,29 @@ export default async function Home() {
         >
           Welcome to my blog
         </h2>
-        <div>
-          <p className="mx-5 p-5 text-rose-800 text-2xl">
-            My message to you is:
-          </p>
+        <div className="p-10 text-2xl text-rose-800 bg-orange-100 grid grid-cols-2 md:bg-opacity-70">
           <article>
-            <p>Is wine merely a fermented solution of sugar? </p>
+            <div>
+              <img src="public/images/jagath-2022.jpg" />
+            </div>
+
+            <h2 className="p-10 text-rose-800">
+              Is wine was merely a fermented solution of sugar?
+            </h2>
+
+            <p>
+              My first recollection of wine was 'the ilegal consumption' of
+              'beet wine' or 'king coconut wine' my mother used to make for
+              Christmas. If got caught it was a punishable offence, especially
+              before Christmas. Then an alcoholic beverage named Toddy, which is
+              fermented sap of the coconut flower. I cannot remember the name of
+              the first 'wine wine' I drank, it was I remember on board a BA
+              flight from Colombo to Heathrow. I expected a sweet wine like a
+              port, but had surprice that made me settle for larger or ale for a
+              while. Bulgarian Cabernet Sauvignon was the first name of wine I
+              remember and the friend who introduced it to me. So it was
+              Bulgarian Cab Sauv for a while.
+            </p>
           </article>
         </div>
       </div>
