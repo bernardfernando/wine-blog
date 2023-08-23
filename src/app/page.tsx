@@ -25,21 +25,29 @@ export default async function Home() {
             </div>
 
             <h2 className="p-10 text-rose-800">
-              Is wine was merely a fermented solution of sugar?
+              Is wine merely a fermented 'sugary' solution?
             </h2>
 
             <p>
               My first recollection of wine was 'the ilegal consumption' of
               'beet wine' or 'king coconut wine' my mother used to make for
-              Christmas. If got caught it was a punishable offence, especially
+              Christmas. If got caught it was a punishable offence, if it was
               before Christmas. Then an alcoholic beverage named Toddy, which is
               fermented sap of the coconut flower. I cannot remember the name of
               the first 'wine wine' I drank, it was I remember on board a BA
-              flight from Colombo to Heathrow. I expected a sweet wine like a
-              port, but had surprice that made me settle for larger or ale for a
-              while. Bulgarian Cabernet Sauvignon was the first name of wine I
-              remember and the friend who introduced it to me. So it was
-              Bulgarian Cab Sauv for a while.
+              flight from Colombo to Heathrow. I expected a sweet wine like
+              port, but had a surprice that made me settle for larger or ale for
+              a while. Bulgarian Cabernet Sauvignon was the first name of wine I
+              that comes to mind and it was a luxury for a student like me. So
+              it was Bulgarian Cab Sauv for a while.
+            </p>
+            <p>
+              For 18 years I have come a long way, and still learning: doing a
+              few courses, WSET etc and 5 days a week dealing with wine from
+              tasting, dealing with supply chain, filling, storage, QA promted
+              me to have a thurst to learn more. I would like to start with
+              'Toddy', a 'wine' that some of you have never tasted - real
+              organic, no added ingredients, everything is 'terroir' dependent.
             </p>
           </article>
         </div>
