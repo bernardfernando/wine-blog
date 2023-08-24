@@ -9,7 +9,7 @@ export default async function Comments({ slug }: { slug: string }) {
   let comments = [];
   try {
     const commentsRes = await fetch(`${WEBSITE_URL}/api/comments/${slug}`, {
-      next: { revalidate: 1 },
+      next: { revalidate: 5 },
     });
     comments = await commentsRes.json();
   } catch (err) {
@@ -28,7 +28,10 @@ export default async function Comments({ slug }: { slug: string }) {
           <CommentForm slug={slug} username={user.username} />
         </>
       ) : (
-        <Link href="/sign-in">Please sign in to comment</Link>
+        // <Link href="/sign-in">Please sign in to comment</Link>
+        <Link href={`/sign-in?redirect=/blog/${slug}`}>
+          Please sign in to comment
+        </Link>
       )}
       <ul>
         {/* @ts-ignore */}

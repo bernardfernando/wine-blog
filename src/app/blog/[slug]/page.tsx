@@ -26,14 +26,21 @@ export default function BlogPost({ params }: BlogPostParams) {
   }
 
   return (
-    <div className="p-20 text-rose-800 text-2xl">
-      <h1>{post.title}</h1>
+    <>
       <div
-        dangerouslySetInnerHTML={{ __html: post.body.html }}
-        className="prose dark:prose-invert"
-      ></div>
-      {/* @ts-ignore */}
-      <Comments slug={params.slug} />
-    </div>
+        className="w-full h-screen bg-cover bg-center"
+        style={{ backgroundImage: 'url("/images/bg-vine.jpg")' }}
+      >
+        <div className="text-rose-800 text-2xl my-5 mx-10">
+          <h1 className="my-5 text-rose-800 text-3xl">{post.title}</h1>
+          <div
+            className="prose dark:prose-invert blog-content my-5 text-3xl text-rose-800"
+            dangerouslySetInnerHTML={{ __html: post.body.html }}
+          ></div>
+          {/* @ts-ignore */}
+          <Comments slug={params.slug} />
+        </div>
+      </div>
+    </>
   );
 }

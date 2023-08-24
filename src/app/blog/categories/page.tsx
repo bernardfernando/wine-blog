@@ -9,7 +9,10 @@ export default function CatorgiesPage() {
         {categories.map((category) => {
           return (
             <li key={category.catslug}>
-              <Link href={`/blog/categories/${category.catslug}`}>
+              <Link
+                className="text-3xl"
+                href={`/blog/categories/${category.catslug}`}
+              >
                 {category.name}
               </Link>
             </li>
