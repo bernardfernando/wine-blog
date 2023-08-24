@@ -1,7 +1,8 @@
-import { getComments } from "@/lib/comment";
+import { getComments } from "@/lib/comments";
+import { comment } from "postcss";
 
 export default async function Comment() {
-  const comments = await getComments();
+  const comments = await getComments("id");
 
   return (
     <>

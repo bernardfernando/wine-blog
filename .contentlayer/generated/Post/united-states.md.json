@@ -1,0 +1,19 @@
+{
+  "title": "US_Wines",
+  "date": "2023-08-16T00:00:00.000Z",
+  "category": "american\r",
+  "body": {
+    "raw": "\r\nUS wines\r\nhttps://media.winefolly.com/50statesofAmericanwine-excerpt.jpg\r\n",
+    "html": "<p>US wines\r\nhttps://media.winefolly.com/50statesofAmericanwine-excerpt.jpg</p>"
+  },
+  "_id": "united-states.md",
+  "_raw": {
+    "sourceFilePath": "united-states.md",
+    "sourceFileName": "united-states.md",
+    "sourceFileDir": ".",
+    "contentType": "markdown",
+    "flattenedPath": "united-states"
+  },
+  "type": "Post",
+  "slug": "united-states"
+}

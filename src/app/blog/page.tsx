@@ -12,11 +12,17 @@ export default function BlogPage() {
   return (
     <div>
       <h2>My Posts</h2>
-      <ul>
+      <ul className="grid grid-cols-5 gap-4 my-10">
         {posts.map((post) => {
           return (
-            <li key={post.slug}>
-              <Link href={`/blog/${post.slug}`}>{post.title}</Link>
+            <li
+              className="mx-10 h-30 w-30 border-rose-800 border-1 bg-rose-50 p-5"
+              key={post.slug}
+            >
+              <Link href={`/blog/${post.slug}`}>
+                {post.title} {"\n"}
+                {"\n"}date: {post.date}
+              </Link>
             </li>
           );
         })}

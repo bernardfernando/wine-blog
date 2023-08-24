@@ -3,5 +3,7 @@
 import australianWinesMd from './australian-wines.md.json' assert { type: 'json' }
 import englishWelshWinesMd from './english-welsh-wines.md.json' assert { type: 'json' }
 import europeanWinesMd from './european-wines.md.json' assert { type: 'json' }
+import toddyMd from './toddy.md.json' assert { type: 'json' }
+import unitedStatesMd from './united-states.md.json' assert { type: 'json' }
 
-export const allPosts = [australianWinesMd, englishWelshWinesMd, europeanWinesMd]
+export const allPosts = [australianWinesMd, englishWelshWinesMd, europeanWinesMd, toddyMd, unitedStatesMd]
