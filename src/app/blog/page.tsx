@@ -10,8 +10,8 @@ export default function BlogPage() {
   const posts = getPosts();
 
   return (
-    <div>
-      <h2>My Posts</h2>
+    <div className="text-rose-800 text-2xl">
+      <h2 className="mx-10 text-3xl">My Posts</h2>
       <ul className="grid grid-cols-5 gap-4 my-10">
         {posts.map((post) => {
           return (
@@ -20,8 +20,7 @@ export default function BlogPage() {
               key={post.slug}
             >
               <Link href={`/blog/${post.slug}`}>
-                {post.title} {"\n"}
-                {"\n"}date: {post.date}
+                {post.title} date: {post.date}
               </Link>
             </li>
           );

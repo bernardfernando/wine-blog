@@ -9,7 +9,7 @@ export default async function Comments({ slug }: { slug: string }) {
   let comments = [];
   try {
     const commentsRes = await fetch(`${WEBSITE_URL}/api/comments/${slug}`, {
-      next: { revalidate: 5 },
+      next: { revalidate: 1 },
     });
     comments = await commentsRes.json();
   } catch (err) {
