@@ -3,7 +3,13 @@
 import australianWinesMd from './australian-wines.md.json' assert { type: 'json' }
 import englishWelshWinesMd from './english-welsh-wines.md.json' assert { type: 'json' }
 import europeanWinesMd from './european-wines.md.json' assert { type: 'json' }
+import featuredArticleMd from './featured-article.md.json' assert { type: 'json' }
+import grapeVarietiesMd from './grape-varieties.md.json' assert { type: 'json' }
+import mainProducersMd from './main-producers.md.json' assert { type: 'json' }
+import methodsUsedMd from './methods-used.md.json' assert { type: 'json' }
+import qualityAssuranceMd from './quality-assurance.md.json' assert { type: 'json' }
 import toddyMd from './toddy.md.json' assert { type: 'json' }
 import unitedStatesMd from './united-states.md.json' assert { type: 'json' }
+import wineTypesMd from './wine-types.md.json' assert { type: 'json' }
 
-export const allPosts = [australianWinesMd, englishWelshWinesMd, europeanWinesMd, toddyMd, unitedStatesMd]
+export const allPosts = [australianWinesMd, englishWelshWinesMd, europeanWinesMd, featuredArticleMd, grapeVarietiesMd, mainProducersMd, methodsUsedMd, qualityAssuranceMd, toddyMd, unitedStatesMd, wineTypesMd]

@@ -1,0 +1,19 @@
+{
+  "title": "Grape Varieties",
+  "date": "2023-08-16T00:00:00.000Z",
+  "category": "grape-varieties\r",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "grape-varieties.md",
+  "_raw": {
+    "sourceFilePath": "grape-varieties.md",
+    "sourceFileName": "grape-varieties.md",
+    "sourceFileDir": ".",
+    "contentType": "markdown",
+    "flattenedPath": "grape-varieties"
+  },
+  "type": "Post",
+  "slug": "grape-varieties"
+}

@@ -26,21 +26,25 @@ export default function BlogPost({ params }: BlogPostParams) {
   }
 
   return (
-    <>
-      <div
-        className="w-full h-screen bg-cover bg-center"
-        style={{ backgroundImage: 'url("/images/bg-vine.jpg")' }}
-      >
-        <div className="text-rose-800 text-2xl my-5 mx-10">
-          <h1 className="my-5 text-rose-800 text-3xl">{post.title}</h1>
+    <div
+      className="w-full h-screen bg-cover bg-center {quicksand.className} "
+      style={{ backgroundImage: 'url("/images/jaime-casap.jpg")' }}
+    >
+      <div className="bg-gradient-to-r from-yellow-100 via-rose-100 to-transparent h-100% ">
+        <div className="grid grid-cols-10 grid-rows-3">
+          <div className="col-start-1 col-span 4 mx-10 my-5 text-rose-800 text-3xl  {quicksand.className} ">
+            <h1>{post.title}</h1>
+          </div>
           <div
-            className="prose dark:prose-invert blog-content my-5 text-3xl text-rose-800"
             dangerouslySetInnerHTML={{ __html: post.body.html }}
+            className="prose dark:prose-invert col-start-1 col-span-6 row-2 mx-10 text-rose-800 text-2xl  {quicksand.className} "
           ></div>
-          {/* @ts-ignore */}
-          <Comments slug={params.slug} />
+          <div className="col-start-1 col-span-2 row-3 mx-10  my-10 text-rose-800 text-2xl  {quicksand.className} ">
+            {/* @ts-ignore */}
+            <Comments slug={params.slug} />
+          </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
