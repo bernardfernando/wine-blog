@@ -1,11 +1,12 @@
 import { allPosts as POSTS } from "contentlayer/generated";
 
 const CATEGORIES = [
-  { name: "Australian", catslug: "australian" },
-  { name: "English", catslug: "english" },
-  { name: "European", catslug: "european" },
-  { name: "United States", catslug: "united_states" },
-  { name: "Sri Lanka-Palm-Wine", catslug: "sri-lanka" },
+  { name: "Wine Types", catslug: "wine-types" },
+  { name: "Grape Varieties", catslug: "grapes-varieties" },
+  { name: "Methods Used", catslug: "methods-used" },
+  { name: "Quality Assurance", catslug: "quality-assurance" },
+  { name: "Main Producers", catslug: "main-producers" },
+  { name: "Featured Article", catslug: "featured-article" },
 ];
 
 // get ALL the posts (simulating an API or database)

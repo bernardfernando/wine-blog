@@ -1,0 +1,19 @@
+{
+  "title": "Wine Types",
+  "date": "2023-08-16T00:00:00.000Z",
+  "category": "wine-types\r",
+  "body": {
+    "raw": "\r\n# Wine\r\n\r\n## \"the product obtained exclusively from the total or partial alcholic fermentation of fresh grapes, whether or not crushed, or of grape must.\r\n\r\nThe names of other must be preceded by the name of the substance from which they are made, eg Apple Wine.\r\nThere is another complication when British Wine, made from grape concentrate, comes to the equation.\r\n\r\n##Grape is the fruit of the vine - belonging to family _Vitaceae_, genus _Vitis_, species _vinifera_. _Vitis vinifera_, the European grape vine is the most important in terms of producing acceptable flavoursome wine. Other species are important in providing root-stocks, on which to graft _Vitis vinifera_ vine in the fight against phyllocxera root disease to which _Vitis vinifere_ is succeptible to.\r\nThen we have varieties,eg chardonnay, pinot noir, riesling, cabernet sauvignon, list goes on. There are clones of these.\r\n\r\nFermentable sugar in grape juice ------ yeast ------> Alcohol(Wine) + Carbon Dioxide\r\n[This anaerobic (or 'devoid of oxygen') process that yeast cells employ to generate energy. Alcohol and carbon-dioxide are by products/waste products of that process.]\r\n",
+    "html": "<h1>Wine</h1>\n<h2>\"the product obtained exclusively from the total or partial alcholic fermentation of fresh grapes, whether or not crushed, or of grape must.</h2>\n<p>The names of other must be preceded by the name of the substance from which they are made, eg Apple Wine.\r\nThere is another complication when British Wine, made from grape concentrate, comes to the equation.</p>\n<p>##Grape is the fruit of the vine - belonging to family <em>Vitaceae</em>, genus <em>Vitis</em>, species <em>vinifera</em>. <em>Vitis vinifera</em>, the European grape vine is the most important in terms of producing acceptable flavoursome wine. Other species are important in providing root-stocks, on which to graft <em>Vitis vinifera</em> vine in the fight against phyllocxera root disease to which <em>Vitis vinifere</em> is succeptible to.\r\nThen we have varieties,eg chardonnay, pinot noir, riesling, cabernet sauvignon, list goes on. There are clones of these.</p>\n<p>Fermentable sugar in grape juice ------ yeast ------> Alcohol(Wine) + Carbon Dioxide\r\n[This anaerobic (or 'devoid of oxygen') process that yeast cells employ to generate energy. Alcohol and carbon-dioxide are by products/waste products of that process.]</p>"
+  },
+  "_id": "wine-types.md",
+  "_raw": {
+    "sourceFilePath": "wine-types.md",
+    "sourceFileName": "wine-types.md",
+    "sourceFileDir": ".",
+    "contentType": "markdown",
+    "flattenedPath": "wine-types"
+  },
+  "type": "Post",
+  "slug": "wine-types"
+}

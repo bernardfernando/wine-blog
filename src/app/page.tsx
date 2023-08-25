@@ -15,7 +15,7 @@ export default async function Home() {
   return (
     <main className={styles.main} my-0>
       <div
-        className="w-full h-screen bg-cover bg-center"
+        className="w-full h-screen-50% bg-cover bg-center"
         style={{ backgroundImage: 'url("/images/bg-vine.jpg")' }}
       >
         <div className="{quicksand.className} p-0 text-2xl text-rose-800  grid grid-cols-10 grid-rows-1 bg-gradient-to-r from-yellow-100 via-orange-100 to-transparent">
@@ -45,9 +45,8 @@ export default async function Home() {
               the first 'wine wine' I drank, it was, I remember, on board a BA
               flight from Colombo to Heathrow. I expected a sweet wine like
               Port, but had a surprice that made me settle for larger and ale
-              for a while. Bulgarian Cabernet Sauvignon was the first name of
-              wine comes to mind and it was a luxury for a student like me. So
-              it was Bulgarian Cab Sauv for a while.
+              for a while. Bulgarian Cabernet Sauvignon was the first that came
+              to my wine-vocabulary. So it was Bulgarian Cab Sauv for a while.
             </p>
 
             <p className="my-5 mx-5 {quicksand.className}">
@@ -58,6 +57,25 @@ export default async function Home() {
               side-effects and even the 18+ should know about. [photo credit
               Jose Alfonso Unsplash]
             </p>
+          </div>
+        </div>
+        <div className="bg-gradient-to-r from-yellow-100 via-orange-100 to-transparent">
+          <div className="mx-10 my-0 p-10 grid grid-cols-6 gap-4 ">
+            <img
+              src="/images/rohit-tendon.jpg"
+              className="h-40 w-auto col-start-1 col-span-1"
+              alt="my photograph"
+            />
+            <img
+              src="/images/sven-wilhelm.jpg"
+              className="h-40 w-auto col-start-2 col-span-1"
+              alt="my photograph"
+            />
+            <img
+              src="/images/al-elmes.jpg"
+              className="h-40 w-auto"
+              alt="my photograph"
+            />
           </div>
         </div>
       </div>
