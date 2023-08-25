@@ -4,6 +4,7 @@ import { Suspense } from "react";
 import Shimmer from "@/components/Shimmer";
 import Comment from "@/components/Comment";
 import { Quicksand } from "next/font/google";
+import Head from "next/head";
 const quicksand = Quicksand({ subsets: ["latin"], weight: "400" });
 
 export default async function Home() {
@@ -80,9 +81,11 @@ export default async function Home() {
         </div>
       </div>
 
-      <Suspense fallback={<Shimmer />}>
-        <Comment />
-      </Suspense>
-    </main>
+
+        <Suspense fallback={<Shimmer />}>
+          <Comment />
+        </Suspense>
+      </main>
+    </>
   );
 }

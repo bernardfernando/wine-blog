@@ -2,7 +2,6 @@ import Link from "next/link";
 import { getPosts } from "@/lib/posts";
 import { Quicksand } from "next/font/google";
 const quicksand = Quicksand({ subsets: ["latin"], weight: "400" });
-
 interface Post {
   title: string;
   slug: string;
@@ -37,5 +36,6 @@ export default function BlogPage() {
         </ul>
       </div>
     </div>
+
   );
 }
