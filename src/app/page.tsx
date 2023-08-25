@@ -33,29 +33,29 @@ export default async function Home() {
               Welcome to my blog
             </h2>
             <h2 className="mx-5 text-rose-800">
-              Is wine merely a fermented 'sugary' solution?
+              Is wine merely a fermented '&apossugary'&apos solution?
             </h2>
 
             <p className="mx-5 text-2xl {quicksand.className}">
-              My first recollection of wine was 'the ilegal consumption' of
-              'beet wine' or 'king coconut wine' my mother used to make for
-              Christmas. If got caught pre-Christmas, it was a punishable
-              offence. Then an alcoholic beverage named Toddy - naturally
-              fermented sap of the coconut flower. I cannot remember the name of
-              the first 'wine wine' I drank, it was, I remember, on board a BA
-              flight from Colombo to Heathrow. I expected a sweet wine like
-              Port, but had a surprice that made me settle for larger and ale
-              for a while. Bulgarian Cabernet Sauvignon was the first that came
-              to my wine-vocabulary. So it was Bulgarian Cab Sauv for a while.
+              My first recollection of wine was the ilegal consumption of beet
+              wine or king coconut wine my mother used to make for Christmas. If
+              got caught pre-Christmas, it was a punishable offence. Then an
+              alcoholic beverage named Toddy - naturally fermented sap of the
+              coconut flower. I cannot remember the name of the first wine wine
+              I drank, it was, I remember, on board a BA flight from Colombo to
+              Heathrow. I expected a sweet wine like Port, but had a surprice
+              that made me settle for larger and ale for a while. Bulgarian
+              Cabernet Sauvignon was the first that came to my wine-vocabulary.
+              So it was Bulgarian Cab Sauv for a while.
             </p>
 
             <p className="my-5 mx-5 {quicksand.className}">
               Over 18 of the last 20 years I learned a lot, and still learning.
-              I would like to introduce you to 'Toddy', a 'wine' that some of
-              you may never have tasted - real organic, no added ingredients,
-              everything is 'terroir' dependent. Be warned there are
-              side-effects and even the 18+ should know about. [photo credit
-              Jose Alfonso Unsplash]
+              I would like to introduce you to Toddy, a wine that some of you
+              may never have tasted - real organic, no added ingredients,
+              everything is terroir dependent. Be warned there are side-effects
+              and even the 18+ should know about. [photo credit Jose Alfonso
+              Unsplash]
             </p>
           </div>
         </div>
